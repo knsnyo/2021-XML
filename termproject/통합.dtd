@@ -1,5 +1,5 @@
 <!ELEMENT 문화유산들 (문화유산+)>
-<!ELEMENT 문화유산 (이름, 지정일, 시대, 장소, 사진, 내용, 종류)>
+<!ELEMENT 문화유산 (이름, 지정일, 시대, 장소, 사진, 내용, 종류, 주소)>
 <!ELEMENT 이름 (#PCDATA)>
 <!ELEMENT 지정일 (#PCDATA)>
 <!ELEMENT 시대 (#PCDATA)>
@@ -11,3 +11,4 @@ width CDATA #REQUIRED
 height CDATA #REQUIRED>
 <!ELEMENT 내용 (#PCDATA)>
 <!ELEMENT 종류 (#PCDATA)>
+<!ELEMENT 주소 (#PCDATA)>
